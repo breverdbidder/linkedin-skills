@@ -51,6 +51,6 @@ user's own writing pasted in. Apify is an optional accelerator, never required.
 
 ## Related
 
-- The filled profile is read by `linkedin-post-writer`, `linkedin-comment-drafter`,
-  `linkedin-reply-handler`, and `linkedin-repurposer` before they draft.
+- The filled profile is read by `linkedin-post-writer` and `linkedin-repurposer`
+  before they draft.
 - Re-run this any time the user's voice or focus shifts to refresh the profile.

@@ -340,6 +340,8 @@ class PersonalTemplates(unittest.TestCase):
     def test_the_shipped_templates_are_blank(self):
         for name in self.TEMPLATES:
             text = (ROOT / name).read_text(encoding="utf-8")
+            if re.search(r"(?m)^- public: yes\b", text):
+                continue  # Everest fork: deliberately public, published facts only (EVEREST.md rule 5)
             self.assertRegex(text, self.BLANK, f"{name} is tracked with content in it")
 
     def test_the_package_copies_are_blank_too(self):

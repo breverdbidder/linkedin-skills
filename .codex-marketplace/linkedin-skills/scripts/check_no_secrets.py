@@ -80,7 +80,7 @@ def main() -> int:
                 head = path.read_text(encoding="utf-8")[:4000]
             except (UnicodeDecodeError, OSError):
                 head = ""
-            if FILLED_MARKER.search(head):
+            if FILLED_MARKER.search(head) and "\n- public: yes" not in head:  # Everest fork: EVEREST.md rule 5
                 problems.append(
                     f"{rel}: this template is marked `filled: yes` and is tracked. "
                     f"It holds your own material, not a credential, so nothing else "

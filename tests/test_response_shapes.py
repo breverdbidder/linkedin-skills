@@ -218,6 +218,7 @@ if __name__ == "__main__":
     unittest.main()
 
 
+@unittest.skipUnless((pathlib.Path(__file__).resolve().parent.parent / "skills" / "linkedin-reply-handler").is_dir(), "reply-handler removed in the Everest fork (EVEREST.md)")
 class CommentUrnForms(unittest.TestCase):
     """Two URN forms exist and only one is the API's.
 

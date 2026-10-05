@@ -1,3 +1,5 @@
+> **Everest fork:** read `EVEREST.md` first. Its rules override anything below (no auto-publish, no scraping skills, sourced figures only, public repo).
+
 # Project conventions — linkedin-skills
 
 This file is for any Claude Code agent working on this repository. Read it

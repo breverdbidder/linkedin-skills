@@ -1,13 +1,13 @@
 {
   "name": "linkedin-skills",
-  "description": "12 Claude Code and Codex skills for LinkedIn marketing: post writing, comment drafting, reply handler (single + whole-thread sweep), hook extractor, humanizer (rewrite + audit + emoji + detector + rules sub-tools), profile optimizer, content planner, content repurposer, employee advocacy, thread monitor (author replies), engager analytics (likers + commenters ICP segmentation), interviewer (Story Bank of receipts, turning points and positions).",
+  "description": "7 Claude Code skills for LinkedIn founder content (Everest fork, draft-only): post writer, hook extractor, humanizer (rewrite + audit), profile optimizer, content planner, content repurposer, interviewer (Story Bank). Scraping and auto-publish skills removed; see EVEREST.md.",
   "version": "1.1.16",
   "author": {
     "name": "Serge Bulaev",
     "url": "https://github.com/sergebulaev"
   },
   "license": "MIT",
-  "homepage": "https://github.com/sergebulaev/linkedin-skills",
+  "homepage": "https://github.com/breverdbidder/linkedin-skills",
   "keywords": [
     "linkedin",
     "marketing",

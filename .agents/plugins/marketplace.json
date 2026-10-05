@@ -14,7 +14,8 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Productivity",
+      "description": "7 Claude Code skills for LinkedIn founder content (Everest fork, draft-only): post writer, hook extractor, humanizer (rewrite + audit), profile optimizer, content planner, content repurposer, interviewer (Story Bank). Scraping and auto-publish skills removed; see EVEREST.md."
     }
   ]
 }

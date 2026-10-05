@@ -8,6 +8,8 @@ Every writing skill in this bundle reads it before drafting, so it stops asking
 you for "a specific number or moment" on every single request and starts drawing
 from what you already told it once.
 
+> **Everest fork: this repo is PUBLIC.** Only facts already published on everestcapitalusa.com / biddeed.ai go here. Every dollar figure needs `Source:` (enforced by tests/test_everest_policy.py).
+>
 > **Keep this out of git.** It holds career detail, figures, failures and named
 > people. It is a file in this repository, so a push carries it wherever you push,
 > a public fork included. Add `references/story-bank.md` to your `.gitignore`
@@ -19,90 +21,45 @@ file. You can also edit it by hand at any time; the skill reads whatever is here
 
 ## Status
 
-- filled: no
-- updated: (date)
-- sessions: (how many interviews have contributed)
+- filled: yes
+- public: yes
+- updated: 2026-10-05
+- sessions: 0 interviews (seeded from published track record; run `linkedin-interviewer` to add turning points, scars and stories)
 
 ---
 
 ## 1. Timeline
 
-Where you have worked and what changed at each stop. Dates matter: "March 2024"
-beats "last year", because a post can anchor on it.
-
-- (role, company, from-to, what you were actually responsible for)
+- Relocated from Israel to Florida, 2005.
+- Twenty-plus years buying at Florida tax deed and foreclosure auctions (both sale types), as developer, builder and property manager.
+- Founder of Everest Capital USA; built ZoneWise.AI (Florida parcel and zoning intelligence) and BidDeed.AI (auction intelligence).
 
 ## 2. Receipts
 
-The numbers you can state without checking. This is the section the drafts reach
-for most, because one odd-precision figure with a named referent is the single
-strongest signal that a human wrote the post.
-
-Good: "cut deploy time from 22 minutes to 9, team of four, Q2 2025".
-Useless: "improved efficiency significantly".
-
-- (number, what it measures, when, who or what it belongs to)
+- Lakewood: bought at the Brevard County tax deed auction Jan 20 2022 for $20,100; two lots on Lakewood Drive NE, Palm Bay, near L3Harris HQ. Source: everestcapitalusa.com
+- Lakewood: taken through site-plan approval for 16 multifamily units and sold Apr 24 2026 for $320,000 — $1,256 per door in, $20,000 per door out. Source: everestcapitalusa.com
+- Rainsville: a $5,330 tax deed that closed at $398,600 after a ground-up build. Source: everestcapitalusa.com (clerk record)
 
 ## 3. Shipped
 
-Things that exist because you worked on them. Products, migrations, hires, papers,
-events, rescues.
-
-- (what it was, your part in it, what it cost or returned)
+- ZoneWise.AI — built because spreadsheets were costing real money at auction; now Everest's own unfair advantage.
+- BidDeed.AI — hands that same edge to every bidder: auction calendar, property reports, max-bid analysis.
 
 ## 4. Turning points
 
-The moments where you changed your mind or the plan changed under you. These carry
-posts better than successes do, and they are the hardest to invent.
-
-- (what happened, what you believed before, what you believe now)
+- (run linkedin-interviewer)
 
 ## 5. Scars
 
-What went wrong and what it taught you. Kept separate from turning points because
-the shape differs: a scar is a cost you paid, not a view you revised.
-
-- (what broke, the real cost, what you do differently)
+- (run linkedin-interviewer)
 
 ## 6. Positions
 
-Opinions you would defend in a room that disagreed. A position with no cost to
-holding it is not a position; note what holding it costs you.
-
-- (the claim, who disagrees, why you hold it anyway)
+- The best prices in US real estate are set at foreclosure and tax deed auctions — not on the MLS.
+- Sources are the moat: a number you cannot trace to a county record should not be trusted, or published.
+- Auctions are a nationwide, online market — open to everyone, everywhere, including foreign buyers.
 
 ## 7. Recurring stories
 
-The three or four you already tell out loud, at dinner or in interviews. They are
-proven: you know they land. Write them here before a draft dulls them.
-
-- (the story in two lines, and the point it makes)
-
-## 8. Names you can use
-
-People, companies, tools and places you are free to name in public, and the ones
-you are not. Drafts stay vague when they do not know which is which.
-
-- Free to name: (…)
-- Never name: (…)
-- Ask first: (…)
-
-## 9. Off limits
-
-Subjects that stay out of posts regardless of how well they would perform: active
-deals, litigation, health, other people's business, anything under NDA.
-
-- (…)
-
----
-
-## How drafts use this
-
-- A draft needs a concrete detail: it takes one from **Receipts** or **Shipped**
-  rather than asking you mid-session.
-- A hook formula needs a reversal or a confession: **Turning points** and **Scars**
-  are where those live.
-- A post needs an argument: **Positions** supplies the claim and the opposition.
-- Anything a draft cannot source from here, it asks about or leaves out. It does
-  not invent a number. If you see an unfamiliar figure in a draft, that is a bug
-  worth reporting.
+- Lakewood: $20,100 at a tax deed auction became a 16-door approved site sold for $320,000 — the per-door math is the point.
+- Rainsville: $5,330 in, $398,600 out after a ground-up build — what an auction price plus a builder's eye does.
